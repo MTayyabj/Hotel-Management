@@ -1,0 +1,19 @@
+h3 {
+    color: black;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    margin: 0;
+}
+
+p {
+    color: rgb(105, 101, 101);
+    font-size: 1.5em;
+    margin: 0;
+
+}
+.Title {
+    margin: auto;
+    max-width: 70%;
+    }

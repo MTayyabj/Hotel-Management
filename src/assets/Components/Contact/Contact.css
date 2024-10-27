@@ -1,0 +1,26 @@
+.Contact {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px; /* Adds space between the two sections */
+}
+
+.Contact > div {
+    min-width: 50%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="e-mail"], textarea {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,27 @@
+.Hero {
+    display: flex;
+}
+
+.Background {
+    background-size: cover;        /* Scale the image to cover the element */
+    background-position: center;   /* Center the image */
+    background-repeat: no-repeat;  /* Prevent repeating of the image */
+    width: 100%;                   /* Full width */
+    height: 100vh;                 /* Full viewport height */
+    position: fixed;               /* Fixed positioning to stay in place */
+    top: 0;                        /* Align to the top of the viewport */
+    left: 0;                       /* Align to the left of the viewport */
+    z-index: -1;                   /* Place the background behind other elements */
+    opacity: 0.5;  
+    background-image: linear-gradient(rgba(62, 62, 62, 0.5), rgba(62, 62, 62, 0.5))
+}
+
+.Hero-text {
+    position: relative; /* Set position to relative or absolute */
+    z-index: 1;         /* Ensure the text is above the background */
+    color: white;       /* Make sure the text color contrasts with the background */
+    font-size: 4em;
+    justify-content: center;
+    align-items: center;
+   
+   }

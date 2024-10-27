@@ -1,0 +1,43 @@
+.Testimonials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Testimonial {
+    flex: 1;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .Testimonial img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .context {
+    position: absolute;
+    font-size: 1em;
+    background: rgba(61, 61, 61, 0.3);/* Increased opacity for better visibility */
+    top: 0;
+    left: 0;
+    right: 0;  /* Ensures the context covers the full width */
+    bottom: 0; /* Ensures the context covers the full height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; /* Matches the image's border radius */
+    color: white; /* Text color inside the context */
+    padding: 10px;
+    text-align: center; /* Center text inside the context */
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0; /* Initially hidden */
+  }
+  
+  .Testimonial:hover .context {
+    opacity: 1; /* Fully visible on hover */
+  }
+  
